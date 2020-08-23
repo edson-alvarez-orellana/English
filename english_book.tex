@@ -1,0 +1,142 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[letterpaper]{article}
+\usepackage{geometry}
+ \geometry{
+ letterpaper,
+ total={160mm,240mm},
+ left=30mm,
+ top=20mm,
+ }
+\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
+\columnsep=20pt % This is the amount of white space between the columns in the poster
+\columnseprule=1pt % This is the thickness of the black line between the columns in the poster
+\usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+%\usepackage[scaled]{berasans} % Use font
+\usepackage{palatino} % Uncomment to use the Palatino font
+\usepackage{graphicx} % Required for including images
+\graphicspath{{figures/}} % Location of the graphics files
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage{tabto}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\newcommand{\reddot}{\raisebox{0.5pt}{\tikz{\node[draw,scale=0.5,circle,fill=red!20!red](){};}}} % Allows to use red dots
+\newcommand{\bluedot}{\raisebox{0.5pt}{\tikz{\node[draw,scale=0.5,circle,fill=blue!20!blue](){};}}} % Allows to use blue dots
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+%----------------------------------------------------------------------------------------
+% Begin Document
+\begin{document}
+
+%\begin{center}
+%% Start Vocabulaty Grammer title
+%\begin{titlepage}
+%   \vspace*{\stretch{1.0}}
+%   \begin{center}
+%      \Large\textbf{English Book}\\
+%      \large\textit{Edson Alvarez}
+%   \end{center}
+%   \vspace*{\stretch{2.0}}
+%\end{titlepage}
+%\end{center}
+
+\begin{center}
+\LARGE Vocabulary (Grammar)
+\end{center}
+
+\vspace{1cm} % A bit of extra whitespace between the header and poster content
+% End Vocabulaty Grammer title
+%----------------------------------------------------------------------------------------
+\begin{multicols}{2} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
+\begin{tabbing}
+\hspace*{3cm}\=\hspace*{0.5cm}\= \kill
+\noindent the \> = \> el/la/los/las\\
+a  \> = \> un/una\\
+an \> = \> un/una (delante de vocal)\\
+in \> = \> en\\
+on \reddot \> = \> sobre\\
+and \> = \> y\\
+yes \> = \> sí (afirmativo)\\
+if \> = \> si (condicional)\\
+with \reddot \space + (V\textsuperscript{ing}) \> = \> con + (V\textsuperscript{ar er ir}) \\
+without \reddot \> = \> sin \\
+but \> = \> pero\\
+for \reddot \space + (V\textsuperscript{ing}) \> = \> por/para + (V\textsuperscript{ar er ir}) \\
+or \> = \> o\\
+not \> = \> ni (negación)\\
+every \> = \> cada (lo mismo)\\
+each \> = \> cada (diferente)\\
+about \reddot \> = \> acerca de/sobre \\
+from \reddot \> = \> de \\
+to \reddot \> = \> a \\
+towards \reddot \> = \> hacia (dirección definida)\\
+of \reddot \> = \> de (pertenencia)\\
+then \> = \> entonces/luego \\
+many \> = \> muchos (iguales) \\
+several \> = \> varios (diferentes) \\
+too \> = \> tambien (al final, contestar) \\
+also \> = \> tambien (desp de pron to be) \\
+between \reddot \> = \> entre (dos)\\
+among \> = \> entre (varios) \\
+as \> = \> como (similitud) \\
+like \reddot \> = \> como (parecido) \\
+enough \> = \> suficiente/bastante \\
+same \> = \> mismo/igual \\
+through \reddot \> = \> atravez \\
+even \> = \> aun \\
+while \reddot \> = \> mientras \\
+meanwhile \> = \> mientras tanto \\
+beside \> = \> al lado de \\
+besides \reddot \> = \> ademas \\
+prior \> = \> antes (definido) \\
+before \reddot \> = \> antes \\
+after \> = \> despues \\
+full \> = \> lleno \\
+fully \> = \> completamente (plenamente) \\
+across \> = \> al otro lado (enfrente) \\
+together \> = \> juntos \\
+only \> = \> solamente \\
+sure \> = \> seguro \\
+true \> = \> verdadero \\
+truth \> = \> verdad \\
+again \> = \> de nuevo/otra vez \\
+against \> = \> contra \\
+inside \> = \> adentro \\
+outside \> = \> afuera \\
+within \> = \> dentro (limites) \\
+soon \> = \> pronto \\
+...so. \> = \> ...así.(de esta manera) \\
+even \> = \> aún (c)\\
+\** by \reddot \> = \> por (al)\\
+what \> = \> que\\
+when \> = \> cuando \\
+where \> = \> donde \\
+which \> = \> cual \\
+why \> = \> por qué \\
+how \> = \> como \\
+
+
+
+
+
+
+
+\end{tabbing}
+% Custom footnote
+\blfootnote{\reddot \space Puntos rojos verbo termina en ing}
+\end{multicols}
+\end{document}
+
+
+
+
